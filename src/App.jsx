@@ -18,7 +18,7 @@ const Search = () => <div className="page-content">Search Content</div>;
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/test-tabs-1">
       <div className="app">
         <TabList />
         <div className="content-area">
